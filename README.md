@@ -7,9 +7,11 @@ You can set these devices: hdd, uefi, cdrom, USB Hard Drive, USB Device, Embedde
 
 Example: 
 1st Boot: Windows
+
 2nd Boot: IPV4
 
 $firstBoot = "Windows"
+
 $secondBoot = "IPV4"
 
 If you only want to set first Boot Device: Leave $secondBoot empty
