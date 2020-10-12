@@ -3,9 +3,11 @@
 PowerShell Script that changes the Bootorder on Dell Machines.
 
 Edit the values under "Change this".
-You can set these devices: hdd, uefi, cdrom, USB Hard Drive, USB Device, Embedded NIC
+You can set these devices: 
+hdd, uefi, cdrom, USB Hard Drive, USB Device, Embedded NIC
 
 Example: 
+
 1st Boot: Windows
 
 2nd Boot: IPV4
