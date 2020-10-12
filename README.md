@@ -15,3 +15,5 @@ $secondBoot = "IPV4"
 If you only want to set first Boot Device: Leave $secondBoot empty
 
 If you have set a Bios password assign it to the variable $Password
+
+Tested with Dell Command Configure Version 4.1.0.478
