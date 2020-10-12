@@ -13,7 +13,7 @@ if ((Test-Path $cctk) -eq $false) {
 
 # Output current Boot Sequence
 try {
-    cmd.exe /c "C:\Program Files (x86)\Dell\Command Configure\X86_64\cctk.exe" bootorder --bootlisttype=uefi > C:\uefi.txt
+    cmd.exe /c $cctk bootorder --bootlisttype=uefi > C:\uefi.txt
 }
 catch {
     Write-Error "Something went wrong: $_ "
