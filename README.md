@@ -12,6 +12,8 @@ Dell Command Configure is required to use this Script.
 
 ## Usage
 
+**Note:** You need to run this script as administrator.
+
 ```powershell
 
 Edit the values under Change this:
