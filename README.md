@@ -1,17 +1,13 @@
-# Change Boot Order Dell CCTK
 
-PowerShell Script that can change the Bootorder and disable Bootdevices.
-Tested with Dell Command Configure Version 4.1.0.478
 
 # Change Dell Boot Order 
 
 PowerShell Script that can change the Bootorder and disable Bootdevices.
+Tested with Dell Command Configure Version 4.1.0.478
 
 ## Installation
 
 Dell Command Configure is required to use this Script.
-
-Tested with Dell Command Configure Version 4.1.0.478
 
 ## Usage
 
@@ -35,7 +31,7 @@ To disable a device in the Bootlist change the value for $disableDevice.
 ```
 
 These devices will be recognized:
-```hdd, uefi, cdrom, USB Hard Drive, USB Device, Embedded NIC````
+```hdd, uefi, cdrom, USB Hard Drive, USB Device, Embedded NIC```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
