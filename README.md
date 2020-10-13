@@ -3,6 +3,7 @@
 # Change Dell Boot Order 
 
 PowerShell Script that can change the Bootorder and disable Bootdevices.
+
 Tested with Dell Command Configure Version 4.1.0.478
 
 ## Installation
@@ -25,6 +26,15 @@ $disableDevice = ""
 Or you can run this Script with arguments:
 
 .\change_boot.ps1 -firstBoot Windows -secondBoot IPV4 -Password changeme
+
+Example: Disable IPV6 Bootdevice:
+
+$firstBoot = "",
+$secondBoot = "",
+$Password = "changeme",
+$disableDevice = "IPV6"
+
+.\change_boot.ps1 -disableDevice IPV6 -Password changeme
 
 If you dont need a second Boot leave it empty.
 To disable a device in the Bootlist change the value for $disableDevice.
