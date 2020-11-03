@@ -27,7 +27,7 @@ $disableDevice = ""
 
 Or you can run this Script with arguments:
 
-.\change_boot.ps1 -firstBoot Windows -secondBoot IPV4 -Password changeme
+.\cctk_boot.ps1 -firstBoot Windows -secondBoot IPV4 -Password changeme
 
 Example: Disable IPV6 Bootdevice:
 
@@ -36,7 +36,7 @@ $secondBoot = "",
 $Password = "changeme",
 $disableDevice = "IPV6"
 
-.\change_boot.ps1 -disableDevice IPV6 -Password changeme
+.\cctk_boot.ps1 -disableDevice IPV6 -Password changeme
 
 If you dont need a second Boot leave it empty.
 To disable a device in the Bootlist change the value for $disableDevice.
